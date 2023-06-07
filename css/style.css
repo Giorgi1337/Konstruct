@@ -11,7 +11,7 @@
  }
 
  .header {
-   background-image:url(/img/header-bg.png);
+   background-image:url(../img/header-bg.png);
    background-repeat: no-repeat;
    width: 1440px;
    height: 770px;
@@ -141,4 +141,60 @@
 }
 .story__item:nth-child(3) {
    background-image: url(../img/Bitmap2.png);
+}
+
+.capabilites {
+   padding-bottom: 115px;
+}
+
+.inner__capabilites {
+   padding-bottom: 78px;
+}
+
+.inner__top {
+   display: flex;
+   justify-content: space-between;
+}
+
+.inner__top h2 {
+   font-size: 18px;
+   color: #48555B;
+}
+
+.inner__top p {
+   font-size: 11px;
+   color: #48555B;
+}
+
+.inner__top__btn {
+   background: #00A4E5;
+   font-size: 13px;
+   color: #FFFFFF;
+   width: 150px;
+   height: 40px;
+   padding: 11px 29px
+}
+
+.inner__content {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.content__item {
+   padding: 38px 22px;
+   width: 295px;
+   height: 330px;
+}
+
+.content__item > h4 {
+   margin-top: 25px;
+   margin-bottom: 13px;
+   font-size: 16px;
+   color: #48555B;
+}
+
+.content__item p {
+   font-size: 13px;
+   color: #48555B;
 }
