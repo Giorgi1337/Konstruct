@@ -167,6 +167,7 @@
 }
 
 .inner__top__btn {
+   cursor: pointer;
    background: #00A4E5;
    font-size: 13px;
    color: #FFFFFF;
@@ -197,4 +198,31 @@
 .content__item p {
    font-size: 13px;
    color: #48555B;
+}
+
+.build {
+   background-image: url(../img/build-bg.png);
+   min-height: 500px;
+   background-repeat: no-repeat;
+}
+
+.build__inner {
+   text-align: center;
+}
+
+.build__inner h2 {
+   margin-top: 120px;
+   margin-bottom: 35px;
+   font-size: 30px;
+   color: #48555B;
+}
+
+.build__btn {
+   cursor: pointer;
+   padding: 11px 26px;
+   width: 150px;
+   height: 40px;
+   font-size: 13px;
+   background: #00A4E5;
+   color: #fff;
 }
