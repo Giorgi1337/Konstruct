@@ -202,7 +202,7 @@
 
 .build {
    background-image: url(../img/build-bg.png);
-   min-height: 500px;
+   min-height: 498px;
    background-repeat: no-repeat;
 }
 
@@ -220,6 +220,43 @@
 .build__btn {
    cursor: pointer;
    padding: 11px 26px;
+   width: 150px;
+   height: 40px;
+   font-size: 13px;
+   background: #00A4E5;
+   color: #fff;
+}
+
+.newsletter {
+   width: 1440px;
+   min-height: 100px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   background: #171819;
+}
+
+.newsletter__form {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.newsletter__form > label {
+   font-size: 22px;
+   color: #fff;
+   margin-right: 95px;
+}
+
+.emailinput {
+   padding: 11px 98px 10px 16px;
+   width: 250px;
+   height: 40px;
+   background: #FFFFFF;
+   border: 1px solid #979797;
+}
+
+.news__btn {
+   padding: 11px 48px;
    width: 150px;
    height: 40px;
    font-size: 13px;
