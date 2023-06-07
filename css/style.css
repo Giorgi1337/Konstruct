@@ -263,3 +263,92 @@
    background: #00A4E5;
    color: #fff;
 }
+
+.footer {
+   width: 1440px;
+   height: 299px;
+   background: #141A20;
+}
+
+
+.footer__content{
+   display: flex;
+   padding-top: 42px;
+   padding-bottom: 40px;
+}
+
+.footer__content__first{
+   width: 250px;
+   height: 148px;
+   display: flex;
+   flex-direction: column;
+}
+
+.foother__content__first h6 {
+   font-size: 11px;
+   color: #fff;
+}
+
+.foother__content__first p {
+   font-size: 11px;
+   color: #fff;
+   line-height: 19px;
+}
+
+.footer_logo {
+   margin-top: 19px;
+   margin-bottom: 15px;
+}
+
+.foother__content__second {
+   display: flex;
+   flex-direction: column;
+   padding-left: 71px;
+}
+
+.foother__content__second a {
+   text-decoration: none;
+   font-size: 11px;
+   color: #FFFFFF;
+   line-height: 25px;
+}
+
+.foother__content__thirdth {
+   padding: 25px 38px 0px 34px;
+   display: flex;
+   flex-direction: column;
+}
+
+.foother__content__thirdth > a  {
+   font-size: 11px;
+   line-height: 25px;
+   color: #fff;
+   text-decoration: none;
+}
+
+.foother__content__fourth {
+   padding-left: 20px;
+   padding-right: 46px;
+   display: flex;
+   flex-direction: column;
+}
+
+.foother__content__fourth h6 {
+   font-size: 11px;
+   color: #fff;
+}
+
+.foother__contactus {
+   padding-top: 15px;
+   font-size: 11px;
+   line-height: 16px;
+   color: #fff;
+}
+
+.footer__link__logos {
+   margin-top: 20px;
+   display: flex;
+   gap: 35px;
+   width: 12px;
+   height: 12px;
+}
