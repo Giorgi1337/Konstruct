@@ -74,3 +74,71 @@
 .nav__links a > span {
    color: #00A4E5;
 }
+
+.story {
+   padding-top: 57px;
+   padding-bottom: 118px;
+}
+
+.story__inner {
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.story__title__h2 {
+   text-align: center;
+   font-size: 18px;
+   color: #48555B;
+   padding-bottom: 70px;
+}
+
+.story__title__h2::after {
+   content: '';
+   width: 50px;
+   height: 2px;
+   background-color: #00a4e5;
+   display: block;
+   margin: 10px auto 0;
+}
+
+.story__tiltle__h3 {
+   font-size: 20px;
+   color: #48555B;
+   margin-bottom: 30px;
+}
+
+.accent__color {
+   color:#00a4e5;
+}
+
+.story__text {
+   font-size: 13px;
+   color: #48555B;
+}
+
+.story__right {
+   display: flex;
+   gap: 20px;
+}
+
+.story__item {
+   padding: 15px;
+   font-size: 24px;
+   color: #fff;
+   font-weight: bold;
+   width: 140px;
+   height: 224px;
+}
+
+
+
+.story__item:nth-child(1) {
+   background-image: url(../img/Bitmap1.png);
+}
+.story__item:nth-child(2) {
+   background-image: url(../img/Bitmap3.png);
+}
+.story__item:nth-child(3) {
+   background-image: url(../img/Bitmap2.png);
+}
