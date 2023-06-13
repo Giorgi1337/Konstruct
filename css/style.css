@@ -13,8 +13,9 @@
  .header {
    background-image:url(../img/header-bg.png);
    background-repeat: no-repeat;
-   width: 1440px;
-   height: 770px;
+   background-size: cover;
+   width: 100%;
+   min-height: 769px;
  }
  
 .construct__logo {
@@ -23,23 +24,26 @@
    padding-bottom: 317px;
 }
 
-.header-text {
+.header-h2 {
    font-size: 60px;
    line-height: 70px;
    text-align: center;
    color: #fff;
 }
 
-.center {
+.header-p {
    font-size: 16px;
    color: #fff;
    text-align: center;
 }
 
 .scroll {
+   text-align: center; 
+   display: flex; 
+   justify-content: center;
    padding-top: 221px;
-   margin: 0 660px;
 }
+
 
 .scroll a { 
    text-decoration: none;
